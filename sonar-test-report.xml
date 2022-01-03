@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/home/vagrant/backend/nestjs/nestjs/src/users/users.controller.spec.ts">
+        <testCase name="UsersController should be defined" duration="38"/>
+    </file>
+    <file path="/home/vagrant/backend/nestjs/nestjs/src/app.controller.spec.ts">
+        <testCase name="AppController root should return &quot;Hello World!&quot;" duration="10"/>
+    </file>
+    <file path="/home/vagrant/backend/nestjs/nestjs/src/users/users.service.spec.ts">
+        <testCase name="UsersService should be defined" duration="30"/>
+    </file>
+</testExecutions>
