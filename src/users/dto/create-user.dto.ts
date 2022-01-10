@@ -4,4 +4,6 @@ export class CreateUserDto {
     lastname: string;
     createAt: Date;
     updateAt: Date;
+    email:string;
+    password:string;
 }

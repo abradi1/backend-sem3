@@ -5,6 +5,7 @@ import { Users } from './entities/user.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
+
 @Injectable()
 export class UsersService {
 
@@ -40,4 +41,8 @@ export class UsersService {
     return { deleted: true };
 
   }
+
+   findUser(query: any): Promise<Users> {
+    return this.usersRepository.findOne(query);
+}
 }
